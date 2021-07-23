@@ -11,24 +11,29 @@ body{
     text-align: center;
     font-size: 1.2rem;
     padding: 10px;
-    margin-bottom: 12px;
+    margin-bottom: 1%;
     box-shadow: 0px 3px 2px 1px black;
+    font-weight: bold;
+    letter-spacing: 3px;
+    word-spacing: 5px;
 }
  
 #search-box{
-    border: 1px solid paleturquoise;
+    /* border: 1px solid paleturquoise; */
     display: inline;
 }
 
 
-
 #search-box-input{
-    margin-right: 50rem;
+    /* margin-right: 50rem; */
     background-color:rgba(237, 239, 242, 1);
     border-radius: 5px;
     height: 1.5rem;
-    width: 8rem;
+    width: 10rem;
+    padding: 11px;
     /* border: 0px; */
+    margin-bottom: 1%;
+
 }
 
 * {box-sizing:border-box}
@@ -124,4 +129,25 @@ body{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.slideshow-container{
+  border: 1px solid blue;
+  background-size: 1000px 400px;
+  background-size: contain;
+  
+}
+
+.navbar{
+  text-decoration: none;
+  color: black;
+  font-variant: small-caps;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.menu{
+  margin-right: 100px;
 }

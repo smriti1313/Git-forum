@@ -13,6 +13,7 @@
 
 <!----------------------------------------------------------------------------->
 <!-- Body of the page -->
+
 <body>
     <!-- Header of the page include GIT -->
     <header id="header">
@@ -29,8 +30,12 @@
         <input type="text" id="search-box-input" placeholder="Search">
     </div>
 
-    dssd
-
+    <span class="menu">
+        <a href="#home" class="navbar">Home</a>
+        <a href="#notes" class="navbar">Notes</a>
+        <a href="#lab" class="navbar">Lab Assignments</a>
+        <a href="#papers" class="navbar">Question Papers</a>  
+    </span>
     <!----------------------------------------------------------------------------->
     <!-- Slideshow container for image display -->
     <div class="slideshow-container">
@@ -69,23 +74,38 @@
     
     <!-- Script for image animation -->
     <script>
-        var slideIndex = 0;
-        showSlides();
+        var slideIndex = 1;
+        showSlides(slideIndex);
 
-        function showSlides() {
+        // Next/previous controls
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
         var i;
         var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
         }
-        slideIndex++;
-        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
         slides[slideIndex-1].style.display = "block";
-        setTimeout(showSlides, 2000); // Change image every 2 seconds
+        dots[slideIndex-1].className += " active";
         } 
     </script>
     <!----------------------------------------------------------------------------->
 
+    <!-- Footer for all page -->
     <footer id="footer">
         <div>
 
