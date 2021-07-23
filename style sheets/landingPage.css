@@ -1,16 +1,20 @@
 body{
     border: 2px red dotted;
-    height: 100%;
-    width: 100%;
+    overflow: auto;
 }
 
 header{
     background-color: black;
     color: white;
-    height: 30px;
-    width: 100%;
+    height: auto;
+    /* width: 100vw; */
     text-align: center;
     font-size: 30px;
     padding: 10px;
+
 }
 
+#back-arrow{
+    size: 300px;
+
+}    
