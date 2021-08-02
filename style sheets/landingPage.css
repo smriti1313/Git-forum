@@ -216,15 +216,16 @@ padding-bottom: 15px;
 /* border: 1px dotted blue; */
 }
 
-#container {
+#footer-container {
   background-color: #2F2D2D;
   width: auto;
-  height: 513px;
+  height: 550px;
   display: flex;
 }
 
-#container div {
+#footer-container div {
   width: 50%;
+  height: auto;
 }
 
 #thankyou{
@@ -245,7 +246,7 @@ padding-bottom: 15px;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 20px;
-  font-style: normal;
+  font-variant: small-caps;
   line-height: 23.44px;
   margin-bottom: 0px;
 }
@@ -262,74 +263,78 @@ padding-bottom: 15px;
 }
 
 #form p {
+  line-height: 23.44px;
   color: #FEF102;
   text-align: right;
-  margin-right: 69px;
+  margin-right: 70px;
   margin-top: 40px;
-  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 20px;
   font-style: normal;
   line-height: 23.44px;
+  /* border: 1px pink dotted; */
 }
 
-#table {
+#feedback-table {
   position: absolute;
   right: 44px;
 }
 
-#table td {
+#feedback-table td {
+  
   text-align: right;
-  font-family: Roboto;
   color: #FFFFFF;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
   line-height: 21px;
   padding: 10px;
+  font-variant: small-caps;
 }
 
-#table input[type=text], #table input[type=email] {
+#feedback-table input[type=text], #feedback-table input[type=email] {
   height: 36px;
+  width: 100%;
   border-radius: 8.18px;
   background-color: #EEEEEE;
 }
 
-#table textarea {
-  height: 150px;
+#feedback-table textarea {
+  height: auto;
   border-radius: 8.18px;
   background-color: #EEEEEE;
+  overflow-y: scroll;
+  resize: none; 
 }
 
-#table button {
+#feedback-table button {
   width: 129px;
   height: 36px;
   background-color: #FFFFFF;
   text-align: center;
   border-radius: 4px;
-  font-family: Roboto, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 21px;
+  /* border: #FEF102 1px solid; */
 }
 
-#table button:hover {
+#feedback-table button:hover {
   background-color: #FEF102;
 }
 
 #copyright {
-  margin-top: 0px;
+  margin-top: 1%;
   margin-bottom: 0px;
   color: #FFFFFF;
-  height: 42px;
+  height: auto;
   background-color: #1A1A1B;
   text-align: center;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 14px;
-  padding-top: 15px;
+  padding: 1%;
 }
 
 #heart {
