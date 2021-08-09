@@ -222,7 +222,7 @@ justify-content: right;
 #footer-container {
   background-color: #2F2D2D;
   width: auto;
-  height: 550px;
+  height: 530px;
   display: flex;
 }
 
@@ -328,7 +328,7 @@ justify-content: right;
 
 /* Last copyrights footer */
 #copyright {
-  margin-top: 1%;
+  margin-top: 0px;
   margin-bottom: 0px;
   color: #FFFFFF;
   height: auto;
