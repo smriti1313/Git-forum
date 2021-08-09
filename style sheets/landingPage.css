@@ -1,7 +1,8 @@
 body{
-  border: 2px red dotted;
   font-family: 'Roboto', sans-serif;
   overflow: auto;
+  width: fit-content;
+  /* border: 2px red dotted; */
 }
 
 #header{
@@ -191,15 +192,24 @@ background-size: contain;
 }
 
 /* -------------------------------------------------------------------------------------- */
+/* FOR ALL SVG IMAGES. To give shadow effect to all svg images*/
+.img-class{
+  -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* Flex model for all "flex" classes */
+.flex {
+  display: flex;
+}
+
+/* -------------------------------------------------------------------------------------- */
 /* ABOUT US SECTION CSS */
 #about-us {
   background-color: #ededec;
-  margin: 10px;
+  margin: 0.8%;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
-}
-
-.flex {
-  display: flex;
 }
 
 #about-us-header {
@@ -237,15 +247,39 @@ background-size: contain;
   /* border: 5px dotted blue; */
 }
 /* ABOUT US FINISHED */
-/* -------------------------------------------------------------------------------------- */
 
 /* -------------------------------------------------------------------------------------- */
-/* FOR ALL SVG IMAGES. To give shadow effect to all svg images*/
-.img-class{
-  -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
-  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+/* HELP YOU SECTION CSS */
+#help {
+  background-color: #ededec;
+  margin: 0.7%;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  /* border: 2px solid green; */
 }
-/* -------------------------------------------------------------------------------------- */
+
+#help-header {
+  font-size: 2.3rem;
+  font-weight: bold;
+  padding-left: 4.5%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  /* center align the text */
+  text-align: center;
+  /* border: 1px dotted blue; */
+}
+
+#help-text{
+  background: linear-gradient(to bottom,rgb(26, 38, 73),rgb(0, 13, 255) 100%);
+  color: white;
+  
+  /* for bg-clip */
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
 
 
 /* -------------------------------------------------------------------------------------- */
