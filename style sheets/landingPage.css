@@ -237,6 +237,7 @@ background-size: contain;
   padding-bottom: 3%;
   /* margin-right: 20%; */
   /* border: 5px dotted blue; */
+  text-align: justify;
 }
 
 #about-us-img {
@@ -260,15 +261,15 @@ background-size: contain;
 #help-header {
   font-size: 2.3rem;
   font-weight: bold;
-  padding-left: 4.5%;
   padding-top: 2.5%;
   padding-bottom: 2.5%;
   /* center align the text */
   text-align: center;
   /* border: 1px dotted blue; */
+  display: block;
 }
 
-#help-text{
+#help-help-text{
   background: linear-gradient(to bottom,rgb(26, 38, 73),rgb(0, 13, 255) 100%);
   color: white;
   
@@ -276,9 +277,15 @@ background-size: contain;
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
 }
 
+
+.help-img{
+  height: auto;
+  width: 300px;
+  display: inline-block;
+  border: 2px dotted green;
+}
 
 
 
