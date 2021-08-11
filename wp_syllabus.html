@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linked css file,font and font-awesome icon-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+
+    <!-- Style sheet here -->
+    <link rel="stylesheet" type="text/css" href="style_sheets\notes\wp_syllabus.css">
+
+    <!-- Site name. Favicon needs to be added -->
+    <title>GIT forum</title>
+</head>
+
+<!----------------------------------------------------------------------------->
+<!-- Body of the page -->
+
+<body>
+    <!-- Header of the page include GIT -->
+    <header id="header">
+            <span id="header-git">
+                Gandhinagar Institute of Technology
+            </span>
+            <span id="arrow">
+                &#8617
+            </span>
+    </header>
+
+    <!-- Search box on bottom left of header -->
+    <div id="search-box">
+        <input type="text" id="search-box-input" placeholder="Search">
+    </div>
+
+    <span class="menu">
+        <a href="#home" class="navbar">Home</a>
+        <a href="#notes" class="navbar">Notes</a>
+        <a href="#lab" class="navbar">Lab Assignments</a>
+        <a href="#papers" class="navbar">Question Papers</a>  
+    </span>
+
+    <!-- Footer for all page -->
+    <footer id="footer">
+        <section id="footer-container">
+            <div id="links">
+              
+              <!-- Thank you section on left -->
+                <p id="thankyou">Thank you for checking out this site.</p>
+
+                <!-- Engaging links under thank you section. -->
+                <p id="engage">Engage</p><br>
+                <a href="#">Home</a><br>
+                <a href="#">Notes</a><br>
+                <a href="#">Lab Assignments</a><br>
+                <a href="#">Question Papers</a>
+            </div>
+
+            <div id="form">
+                <!-- Feddback section on right. -->
+                <p>We appreciate your feedback!!</p>
+
+                <form>
+                    <table id="feedback-table">
+
+                        <tr>
+                            <td> <label for="name">Name*</label></td>
+                            <td><input type="text" id="name" size=42></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="email">Email ID*</label></td>
+                            <td><input type="email" id="email" size=42></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="sub">Subject*</label></td>
+                            <td><input type="text" id="sub" size=42></td>
+                        </tr>
+
+                        <tr>
+                            <td style="vertical-align: top"><label for="sug">Message*</label></td>
+                            <td><textarea id="sug" cols="40" rows="10"></textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td style="text-align: left"><button type="submit">Submit</button></td>
+                        </tr>
+
+                    </table>
+                </form>
+            </div>
+        </section>
+
+        <!-- Last main footer. Please do not make any changes in this section and its css. -->
+        <div>
+            <p id="copyright"> ©2021 All rights reserved | Made with <span id="heart">&#x2665;</span> by Smriti and
+              Charmi </p>
+        </div>
+
+    </footer>
+    
+</body>
+</html>

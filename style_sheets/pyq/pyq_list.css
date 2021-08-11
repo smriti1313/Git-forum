@@ -1,0 +1,213 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;
+    width: fit-content;
+    margin: auto;
+    /* border: 2px red dotted; */
+  }
+  
+#header{
+    background-color: black;
+    color: white;
+    height: auto;
+    /* width: 100%; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-size: 1.8em;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 1%;
+    box-shadow: 0px 3px 2px 1px black;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid yellow; */
+}
+  
+#arrow {
+    position: absolute;
+    right: 0;
+    transform: translateX(-100%);
+}
+
+#search-box{
+    /* border: 1px solid paleturquoise; */
+    display: inline;
+    margin-left: 1%;
+}
+  
+  
+#search-box-input{
+    /* margin-right: 50rem; */
+    background-color:rgba(237, 239, 242, 1);
+    border-radius: 5px;
+    height: 5px;
+    width: 10rem;
+    padding: 11px;
+    /* border: 1px solid blue; */
+    /* margin-bottom: 1%; */
+    display: flexbox;
+  
+}
+
+.navbar{
+    text-decoration: none;
+    color: black;
+    font-variant: small-caps;
+    margin: 5px;
+    font-weight: medium;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px rgb(80, 80, 80);
+    /* border: 1px solid brown; */
+  }
+  
+  .menu{
+    display: flex;
+    float: right;
+    margin-right: 0.8%;
+    /* border: 1px solid brown; */
+  }
+
+/* -------------------------------------------------------------------------------------- */
+/* FOOTER CSS HERE */
+#footer-container {
+    background-color: #2F2D2D;
+    
+    width: auto;
+    height: 530px;
+    display: flex;
+}
+  
+#footer-container div {
+    width: 50%;
+    height: auto;
+}
+  
+#thankyou{
+    color: #FEF102;
+    margin-left: 55px;
+    margin-top: 45px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 23.44px;
+}
+  
+#engage{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 55px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-variant: small-caps;
+    line-height: 23.44px;
+    margin-bottom: 0px;
+}
+  
+#links{
+    padding-left: 1.2%;
+    /* border:2px solid purple; */
+}
+  
+#links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 55px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 30px;
+}
+  
+#form{
+    margin-right: 50px;
+    /* border: 2px solid #FFFFFF; */
+}
+  
+#form p {
+    line-height: 23.44px;
+    color: #FEF102;
+    text-align: right;
+    margin-right: 70px;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 23.44px;
+    /* border: 1px pink dotted; */
+}
+  
+#feedback-table {
+    position: absolute;
+    right: 80px;
+}
+  
+#feedback-table td {
+    
+    text-align: right;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 21px;
+    padding: 10px;
+    font-variant: small-caps;
+}
+  
+#feedback-table input[type=text], #feedback-table input[type=email] {
+    height: 36px;
+    width: 100%;
+    border-radius: 8.18px;
+    background-color: #EEEEEE;
+}
+  
+#feedback-table textarea {
+    height: auto;
+    border-radius: 8.18px;
+    background-color: #EEEEEE;
+    overflow-y: scroll;
+    resize: none; 
+}
+  
+#feedback-table button {
+    width: 129px;
+    height: 36px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    /* border: #FEF102 1px solid; */
+}
+  
+#feedback-table button:hover {
+    background-color: #FEF102;
+    border: 2px solid #FEF102;
+}
+  
+/* Last copyrights footer */
+#copyright {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+    height: auto;
+    background-color: #1A1A1B;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    padding: 1%;
+}
+  
+#heart {
+    color: red;
+}
+  /* -------------------------------------------------------------------------------------- */
+  
