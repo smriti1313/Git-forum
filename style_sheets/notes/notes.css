@@ -61,20 +61,52 @@ body{
     letter-spacing: 1px;
     text-shadow: 1px 1px 1px rgb(80, 80, 80);
     /* border: 1px solid brown; */
-  }
+}
   
-  .menu{
+.menu{
     display: flex;
     float: right;
     margin-right: 0.8%;
     /* border: 1px solid brown; */
-  }
+}
+
+.notes{
+    margin: 1%;
+    border: 2px dotted pink;
+}
+
+#notes-header{
+    font-size: 36px;
+    font-weight: bold;
+    color: #CA0D0D;
+    border: 2px dotted black;
+}
+
+#notes-content{
+    /* margin: 0px; */
+    
+    border: 2px dotted orchid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* -------------------------------------------------------------------------------------- */
 /* FOOTER CSS HERE */
 #footer-container {
     background-color: #2F2D2D;
-    
+    margin-top: 1%;
     width: auto;
     height: 530px;
     display: flex;
