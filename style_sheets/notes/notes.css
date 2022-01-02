@@ -130,7 +130,7 @@ body{
     padding-right: 5px;
     border-radius: 5px;
     box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.35);
-    display: inline-block;
+    /* display: inline-block; */
     float: right;
     /* border: 2px solid rgb(130, 238, 130); */
 }
