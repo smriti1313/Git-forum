@@ -18,7 +18,7 @@ body{
     font-size: 1.8em;
     text-align: center;
     padding: 10px;
-    margin-bottom: 1%;
+    margin-bottom: 1.5%;
     box-shadow: 0px 3px 2px 1px black;
     display: flex;
     justify-content: center;
@@ -34,7 +34,7 @@ body{
 #search-box{
     /* border: 1px solid paleturquoise; */
     display: inline;
-    margin-left: 1%;
+    margin-left: 3%;
 }
   
   
@@ -59,7 +59,7 @@ body{
     font-weight: medium;
     font-size: 16px;
     letter-spacing: 1px;
-    text-shadow: 1px 1px 1px rgb(80, 80, 80);
+    text-shadow: 0.5px 0.5px 1px rgb(80, 80, 80);
     /* border: 1px solid brown; */
 }
  
@@ -67,7 +67,7 @@ body{
 .menu{
     display: flex;
     float: right;
-    margin-right: 0.8%;
+    margin-right: 3%;
     /* border: 1px solid brown; */
 }
 /* HEADER CSS FINISHED */
@@ -75,28 +75,31 @@ body{
 
 .notes{
     margin:1%;
-    /* margin-left: 3%;
-    margin-right: 3%; */
+    margin-left: 3%;
+    margin-right: 3%; 
+    margin-top: 2%;
+    margin-bottom: 2%;
     /* border:2px solid green; */
 }
 
 #notes-header{
-    font-size: 36px;
+    font-size: 2.5rem;
     font-weight: bold;
     color: #CA0D0D;
+    margin-bottom: 1%;
     /* border: 2px dotted black; */
 }
 
 #notes-content{
     text-align: justify;
-    /* margin: 0px; */
+    margin: 0px;
+    font-size: 1.2rem;
     /* border: 2px dotted orchid; */
 }
 
 .ce-heading-and-search-box{
     margin-top: 2%;
     margin-bottom: 2%;
-    display: flex;
     /* border: 2px dashed blue; */
 }
 
@@ -112,30 +115,42 @@ body{
     padding-right: 25px;
     border-radius: 5px;
     box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.35);
+    display: inline-block;
     /* border: 2px solid violet; */
 }
 
-.ce-heading-and-search-box #ce-search-box-input{
+.ce-heading-and-search-box #search-box{
     background: #EDEFF2;
-    justify-content: center;
-    font-size: 22px;
-    color: rgba(56, 56, 56, 1);
-    width: auto;
+    font-size: 20px;
+    width: 280px;
     height: auto;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
-    padding-right: 10px;
-    border:1px;
+    padding-right: 5px;
     border-radius: 5px;
     box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.35);
+    /* display: inline-block; */
+    float: right;
     /* border: 2px solid rgb(130, 238, 130); */
 }
 
-.subjects{
+/* CSS FOR TABLE FORMATTED SUBJECT LIST  */
+
+/* .subjects{
     display: flex;
-    margin-left: 2%;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    table-layout: auto;
     border: 2px dotted black;
+}
+
+.subjects-on-left{
+    border: 5% solid rgb(243, 119, 3);
+}
+
+.subjects-on-right{
+    float: right;
 }
 
 .subjects td{
@@ -143,17 +158,44 @@ body{
     height: auto;
     width: auto;
     padding: 1%;
-    border-radius: 5px;
+    border-radius: 9px;
     font-size: 18px;
-    margin-right: 10px;
+    margin-bottom: 2%;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.35);
     border: 1px solid brown;
+} */
 
+.table-alt{
+    font-size: 20px;
+    color: #0E1468;
+    /* border: 2px dotted rgb(236, 140, 236); */
 }
 
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+    /* border: 2px dotted black; */
+}
 
+.row span{
+    display: flex;
+    flex-direction: column;
+    background: #EDEFF2;
+    height: auto;
+    width: 35rem;
+    padding: 0.3rem;
+    border-radius: 9px;
+    font-size: 18px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.35);
+    /* border: 1px solid brown; */
+}
 
-
-
+.sub-on-right{
+    margin-left: 200px;
+    /* float: right; */
+    
+}
 
 
 
