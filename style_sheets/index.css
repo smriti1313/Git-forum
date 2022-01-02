@@ -56,10 +56,10 @@ body{
   color: black;
   font-variant: small-caps;
   margin: 5px;
-  /* font-weight: bold; */
-  font-size: 16px;
+  font-weight: bold;
+  font-size: 18px;
   letter-spacing: 1px;
-  text-shadow: 0.5px 0.5px 1px rgb(80, 80, 80);
+  /* text-shadow: 0.5px 0.5px 1px rgb(80, 80, 80); */
   /* text-decoration: underline; */
   /* border: 1px solid brown; */
 }
@@ -88,7 +88,10 @@ body{
 /* ABOUT US SECTION CSS */
 #about-us {
   background-color: #ededec;
-  margin: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 2%;
+  margin-bottom: 3%;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
 
 }
