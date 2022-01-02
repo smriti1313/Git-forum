@@ -57,9 +57,9 @@ body{
     font-variant: small-caps;
     margin: 5px;
     font-weight: medium;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 1px;
-    text-shadow: 0.5px 0.5px 1px rgb(80, 80, 80);
+    /* text-shadow: 0.5px 0.5px 1px rgb(80, 80, 80); */
     /* border: 1px solid brown; */
 }
  
